@@ -27,7 +27,7 @@ app.config['UPLOAD_FOLDER'] = 'static/uploads'
 
 # Set up database connection
 db = mysql.connector.connect(
-  host="localhost",
+  host="http://192.64.87.40",
   user="admin",
   password="3210456",
   database="client_img_project"
